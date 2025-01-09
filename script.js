@@ -11,7 +11,6 @@ let otp = "";
 window.addEventListener("load", () => {
     emailjs.init("7TP9eaKHClZPsiTqx");
     step2.style.display = "none";
-    step3.style.display = "none";
     nextButton.classList.add("disable");
     verifyButton.classList.add("disable");
 })
